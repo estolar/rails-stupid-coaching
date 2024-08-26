@@ -13,3 +13,103 @@
  *= require_tree .
  *= require_self
  */
+/* Estilos generales */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Encabezado de la página */
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Estilo del formulario */
+form {
+  margin-top: 20px;
+}
+
+form input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+form input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Encabezado de la página */
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Estilo para la pregunta del usuario */
+.question {
+  font-style: italic;
+  margin-bottom: 20px;
+  border-left: 5px solid #ccc;
+  padding: 15px;
+}
+
+.question span {
+  display: block;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* Estilo para la respuesta del coach */
+.answer {
+  background-color: #fff3cd;
+  padding: 15px;
+  border-left: 5px solid #ffc107;
+  margin-bottom: 20px;
+}
+
+.answer span {
+  display: block;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Estilo para el enlace */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
